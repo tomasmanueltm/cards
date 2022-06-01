@@ -44,3 +44,13 @@
   .bi-heart-cart::before { content: "\f416"; }
   .bi-heart-full::before { content: "\f415"; }
   .bi-rect-down::before { content: "\f282"; }
+  .bi-lampada-fill::before { content: "\f468"; }
+  .bi-lampada-off-fill::before { content: "\f469"; }
+  .bi-lampada-off::before { content: "\f46a"; }
+  .bi-lampada::before { content: "\f46b"; }
+  .bi-layout-wtf::before { content: "\f466"; }
+  .bi-calculator::before { content: "\f1e0"; }
+  .bi-laptop::before { content: "\f456"; }
+
+
+  

@@ -111,16 +111,35 @@ section {
 
 section hgroup {
   text-align: center;
+  padding: 0 3rem 3rem;
 }
 
 section hgroup h1 {
+  font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  letter-spacing: 1.8px;
+}
+
+section hgroup h3 {
   font-size: 2rem;
   font-weight: 900;
-  letter-spacing: 2px;
+  font-family: Circe;
 }
 
 section hgroup p {
-  padding: .6rem;
+  width: 580px;
+  color: #999;
+  margin: 0 auto;
+  padding: .2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+@media (max-width: 768px) {
+  section hgroup p {
+    width: unset;
+  }
 }
 
 .cards {
@@ -144,35 +163,44 @@ section hgroup p {
 
 .cards li {
   width: 320px;
-  height: 280px;
-  padding: 1rem;
+  height: 220px;
   position: relative;
-  border-radius: 10px;
-  background: #ff043a;
-  border-top: 3px solid #000;
+  border-radius: 5px;
+  padding: 1.5rem 1rem;
+  box-shadow: 0px 1px 3px 0px #999;
+  border-top: 5px solid var(--data-color);
 }
 
 .cards li h3 {
-  font-size: 1rem;
   font-weight: 900;
+  font-size: 1.5rem;
+  font-family: Linotte;
 }
 
 .cards li p {
-  padding: 1rem 0;
-  font-size: .9rem;
+  color: #999;
+  padding: .2rem 0;
+  font-size: 1.0rem;
   line-height: 28px;
 }
 
-.cards li img {
-  width: 45px;
-  height: 45px;
-  overflow: hidden;
-  padding: _;
-  object-fit: cover;
-  border-radius: 50%;
-  position: absolute;
+.cards li div {
   right: 10px;
   bottom: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 3px solid var(--data-color);
+}
+
+.cards li div i {
+  color: var(--data-color);
 }
 
 @media (max-width: 768px) {
@@ -183,14 +211,12 @@ section hgroup p {
 
 .cards li.li {
   position: absolute;
-  background: orange;
-  grid-row: 1/ 1 span;
-  transform: rotate(0deg) translateX(20.9rem);
+  transform: rotate(0deg) translateX(21rem);
 }
 
 .cards li.li:last-child {
-  grid-row: unset;
-  transform: rotate(1440deg) translateX(-20.9rem);
+  grid-row: 1/ 1 span;
+  transform: rotate(1440deg) translateX(-21rem);
 }
 
 @media (max-width: 768px) {
