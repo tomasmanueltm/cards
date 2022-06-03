@@ -12,6 +12,6 @@ Detalhe:
  '''meu desafio Front-End-UI ' Tomas Manuel
  <br />
 
- #desktop
- 
- #mobile
+ #desktop e #mobile
+
+link: [Cards](href="https://tomasmanueltm.github.io/cards)
