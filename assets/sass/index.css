@@ -157,7 +157,7 @@ section hgroup p {
   .cards {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-gap: 1rem;
   }
 }
 
