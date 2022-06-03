@@ -1,7 +1,7 @@
 ## Desafio de António Yosica 
 Este projeto é um desafio, consiste em criar cards responsivos e dinamicos...
  
-## Recomendações de António Yosica sobre o desafio
+Recomendações de António Yosica sobre o desafio
 D#3 - Secção de quatro cards responsivo
 Este desafio consiste em construir uma secção com 4 cards e responsivo.
 
@@ -13,3 +13,6 @@ meu desafio Front-End-UI ' Tomas Manuel
 #desktop e #mobile
 
 link: [Cards](https://tomasmanueltm.github.io/cards)
+
+#mobile ![](assets/src/mobile.png)
+#desktop ![](assets/src/desktop.png)
