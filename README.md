@@ -14,5 +14,6 @@ meu desafio Front-End-UI ' Tomas Manuel
 
 link: [Cards](https://tomasmanueltm.github.io/cards)
 
-#mobile ![](assets/src/mobile.png)
+#mobile  <img src="assets/src/mobile.png" style="width:250px; height:800px; object-fit:cover;">
+<br />
 #desktop ![](assets/src/desktop.png)
