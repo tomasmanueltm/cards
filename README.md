@@ -13,7 +13,5 @@ Detalhe:
  <br />
 
  #desktop
- <img src="assets/src/desktop.png">
-
+ 
  #mobile
-<img src="assets/src/mobile.png">
